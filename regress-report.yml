@@ -10,7 +10,7 @@ test-cases:
     status: fail
     
 test-cases:
-   - summary: |
+  - summary: |
    Возможность фильтровать товары по цене.
      status: pass
      
@@ -74,7 +74,7 @@ bugreports:
     actual-result: |
       Фильтрации товаров не происходит.
     
-  bugreports:
+ bugreports:
   - summary: |
       Нет поля для ввода цвета.
     environment: |
@@ -88,7 +88,7 @@ bugreports:
     actual-result: |
       Фильтрации товаров не происходит.
   
-  bugreports:
+ bugreports:
   - summary: |
       Нет поля для ввода размера.
     environment: |
