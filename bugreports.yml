@@ -46,7 +46,7 @@
   environment: |
     Google Chrom
     ОС Windows 10 
-  expected-result: |
+  steps-to-reproduce: |
     1. Войти в корзину.
     2. Empty
   expected-result: |
