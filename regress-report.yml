@@ -8,21 +8,7 @@ test-cases:
   - summary: |
       Возможность искать товары по ключевому слову.
     status: fail
-  
-bugreports:
-  - summary: |
-      При вводе ключевого слова ничего не происходит.
-    environment: |
-      Google Chrom
-      ОС Windows 10
-    steps-to-reproduce: |
-      1. Открыта страница магазина.
-      2. Ввести ключевое слово.
-    expected-result: |
-      При вводе ключевого слова на странице показываются соответствующие ключевому слову товары.
-    actual-result: |
-      Фильтрации товаров не происходит.
-      
+    
 test-cases:
    - summary: |
    Возможность фильтровать товары по цене.
@@ -32,40 +18,12 @@ test-cases:
   - summary: |
     Возможность фильтровать товары по цвету.
     status: fail
-  
-  bugreports:
-  - summary: |
-      Нет поля для ввода цвета.
-    environment: |
-      Google Chrom
-      ОС Windows 10
-    steps-to-reproduce: |
-      1. Открыта страница магазина.
-      2. Нет поля для ввода цвета.
-    expected-result: |
-      На странице магазина нет поля для ввода цвета товара.
-    actual-result: |
-      Фильтрации товаров не происходит.
-      
+    
 test-cases:
   - summary: |
     Возможность фильтровать товары по размеру.
     status: fail
-  
-  bugreports:
-  - summary: |
-      Нет поля для ввода размера.
-    environment: |
-      Google Chrom
-      ОС Windows 10
-    steps-to-reproduce: |
-      1. Открыта страница магазина.
-      2. Нет поля для ввода размера.
-    expected-result: |
-      На странице магазина нет поля для ввода размера товара.
-    actual-result: |
-      Фильтрации товаров не происходит.
-      
+    
 test-cases:
   - summary: |
       Возможность просматривать подробную информацию о товаре.
@@ -101,8 +59,50 @@ test-cases:
       Возможность оформить заказ с переходом на страницу оплаты.
     status: pass
       status: fail
-      
+  
 bugreports:
+  - summary: |
+      При вводе ключевого слова ничего не происходит.
+    environment: |
+      Google Chrom
+      ОС Windows 10
+    steps-to-reproduce: |
+      1. Открыта страница магазина.
+      2. Ввести ключевое слово.
+    expected-result: |
+      При вводе ключевого слова на странице показываются соответствующие ключевому слову товары.
+    actual-result: |
+      Фильтрации товаров не происходит.
+    
+  bugreports:
+  - summary: |
+      Нет поля для ввода цвета.
+    environment: |
+      Google Chrom
+      ОС Windows 10
+    steps-to-reproduce: |
+      1. Открыта страница магазина.
+      2. Нет поля для ввода цвета.
+    expected-result: |
+      На странице магазина нет поля для ввода цвета товара.
+    actual-result: |
+      Фильтрации товаров не происходит.
+  
+  bugreports:
+  - summary: |
+      Нет поля для ввода размера.
+    environment: |
+      Google Chrom
+      ОС Windows 10
+    steps-to-reproduce: |
+      1. Открыта страница магазина.
+      2. Нет поля для ввода размера.
+    expected-result: |
+      На странице магазина нет поля для ввода размера товара.
+    actual-result: |
+      Фильтрации товаров не происходит.
+      
+ bugreports:
   - summary: |
       Нет поля для перхода на страницу оплаты.
     environment: |
