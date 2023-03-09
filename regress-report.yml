@@ -7,7 +7,7 @@ test-cases:
 test-cases:
   - summary: |
       Возможность искать товары по ключевому слову.
-  status: fail
+    status: fail
   
 bugreports:
   - summary: |
@@ -31,7 +31,7 @@ test-cases:
 test-cases:
   - summary: |
     Возможность фильтровать товары по цвету.
-  status: fail
+    status: fail
   
   bugreports:
   - summary: |
@@ -50,7 +50,7 @@ test-cases:
 test-cases:
   - summary: |
     Возможность фильтровать товары по размеру.
-  status: fail
+    status: fail
   
   bugreports:
   - summary: |
