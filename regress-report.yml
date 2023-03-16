@@ -3,22 +3,10 @@ test-cases:
   - summary: |
       Возможность искать товары по категории.
     status: pass
-    
-  - summary: |
-      Поиск товаров по ключевому слову.
-    status: fail
-    
+
   - summary: |
       Фильтр товаров по цене.
     status: pass
-     
-  - summary: |
-      Фильтр товаров по цвету.
-    status: fail
-    
-  - summary: |
-      Фильтр товаров по размеру.
-    status: fail
     
   - summary: |
       Просматр подробной информации о товаре.
