@@ -6,7 +6,7 @@ test-cases:
 
   - summary: |
       Фильтр товаров по цене.
-    status: pass
+    status: fail
     
   - summary: |
       Просматр подробной информации о товаре.
@@ -30,4 +30,49 @@ test-cases:
     
   - summary: |
       Удаление товара из корзины.
+    status: pass
+    
+  - summary: |
+      Возможность искать товары по размеру.
+    status: fail
+    
+  - summary: |
+      Возможность искать товары по цвету.
+    status: fail
+    
+  - summary: |
+      Возможность перейти на страницу оплаты.
+    status: fail
+    
+  - summary: |
+      Переход по хештегу в категорию.
+    status: pass
+    
+  - summary: |
+      Возможность посмотреть наличие товара.
+    status: fail
+    
+  - summary: |
+      Работа в браузере Chrome.
+    status: pass
+    
+    
+  - summary: |
+      Работа в браузере Firefox.
+    status: pass
+    
+  - summary: |
+      Работа в браузере Opera.
+    status: pass 
+    
+  - summary: |
+      Возможность перевода меню на руский.
+    status: pass
+    
+  - summary: |
+      Возможность перевода меню на немецкий.
+    status: fail
+    
+  - summary: |
+      Работа в мобильном приложении.
     status: pass
