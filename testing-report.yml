@@ -36,7 +36,7 @@
   status: fail
 - summary: |
     Возможность перехода по хештегу в группу подобных товаров.
-  status: fail
+  status: pass
 - summary: |
     Возможность проверить наличие товаров.
   status: fail
